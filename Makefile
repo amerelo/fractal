@@ -6,7 +6,7 @@
 #    By: amerelo <amerelo@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/02/24 14:23:47 by amerelo           #+#    #+#              #
-#    Updated: 2016/06/16 19:39:28 by amerelo          ###   ########.fr        #
+#    Updated: 2016/06/21 23:37:46 by amerelo          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ SRC_C := $(addprefix $(DIR_C), $(FILE_C))
 
 SRC_O := $(addprefix $(DIR_O), $(FILE_O))
 
-FLAGS = -Wall -Wextra -Werror
+FLAGS = -Wall -Wextra -Werror -O3 -march=native
 
 all: $(NAME)
 
