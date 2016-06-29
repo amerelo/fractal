@@ -6,7 +6,7 @@
 #    By: amerelo <amerelo@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/02/24 14:23:47 by amerelo           #+#    #+#              #
-#    Updated: 2016/06/26 21:15:16 by amerelo          ###   ########.fr        #
+#    Updated: 2016/06/29 04:04:19 by amerelo          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ DIR_C = ./src/
 
 DIR_O = ./objs/
 
-FILE_C = main.c init.c envent.c
+FILE_C = main.c init.c envent.c tools.c frac_1.c frac_2.c
 
 FILE_O = $(FILE_C:.c=.o)
 
